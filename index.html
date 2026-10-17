@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Second owner — ten used EVs against a WRX</title>
+  <link rel="icon" href="assets/mark.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+  <header class="wrap">
+    <nav class="site-nav">
+      <span>Second owner</span>
+      <a href="#notes">How the numbers work</a>
+    </nav>
+    <div class="mast">
+      <div>
+        <p class="kicker">Wellington · 17 October 2026 · ten cars</p>
+        <h1>Second<br><em>owner.</em></h1>
+      </div>
+      <p class="standfirst">A manual WRX, two people, a boot of ordinary shopping. These are the electric cars still interesting once someone else has paid the new-car premium. NZ-new, roughly 2023–2024, sporty enough to miss a clutch.</p>
+    </div>
+    <div class="baseline">
+      <div class="stat"><span>WRX weekly</span><strong id="wrx-week">—</strong></div>
+      <div class="stat"><span>Three years</span><strong id="wrx-three">—</strong></div>
+      <div class="stat"><span>The petrol car</span><strong>BP 98 · 10 L/100 km</strong></div>
+    </div>
+  </header>
+  <div class="wrap">
+    <div class="sortbar" role="toolbar" aria-label="Sort the shortlist">
+      <span>Sort</span>
+      <button type="button" data-sort="fit" aria-pressed="true">Fit</button>
+      <button type="button" data-sort="reliability" aria-pressed="false">Reliability</button>
+      <button type="button" data-sort="sport" aria-pressed="false">Sportiness</button>
+      <button type="button" data-sort="price" aria-pressed="false">Asking price</button>
+      <button type="button" data-sort="week" aria-pressed="false">Weekly saving</button>
+    </div>
+    <div id="list"></div>
+  </div>
+  <section class="wrap notes" id="notes">
+    <h2>Left off the list</h2>
+    <ul>
+      <li>Leaf — the shape, and a battery lottery on the older cars.</li>
+      <li>BMW i3 — the shape. The i4 is a different car and it is on the list.</li>
+      <li>Model 3 RWD and the 2020–21 Performance — slower, or older than the brief. No 2023–24 Performance was listed.</li>
+      <li>Volvo EX30, Cupra Born V+, Atto 3, bZ4X, Solterra — too small, too soft, or not the car this brief is about.</li>
+    </ul>
+  </section>
+  <footer class="wrap colophon">
+    <div>
+      <p>Asking prices are Trade Me listings on 17 October 2026, not sold prices. Japanese imports are a different risk and are not scored as these cars.</p>
+      <p>Every car page carries the weekly running cost compared to the WRX and the three year running cost compared to the WRX. Energy, road user charges and tyres only. The daily power charge is a house cost. Fast charging at 95 c/kWh is excluded.</p>
+    </div>
+    <ul>
+      <li><span class="kind">Cost</span><a href="https://nzta.govt.nz/vehicles/road-user-charges/ruc-for-electric-vehicles" target="_blank" rel="noopener noreferrer">NZTA road user charges for light EVs</a></li>
+      <li><span class="kind">Cost</span><a href="https://fueltogo.co.nz/national-pricing-fuel-card" target="_blank" rel="noopener noreferrer">BP 98 national card price, week of 12 October 2026</a></li>
+      <li><span class="kind">Tyres</span><a href="https://tessories.nz/product/tyre-services/" target="_blank" rel="noopener noreferrer">Tessories fitted prices used as stand-ins</a></li>
+      <li><span class="kind">Owners</span><a href="https://www.consumer.org.nz/about-us/media-releases/pump-the-brakes-consumer-reveals-the-best-and-worst-cars-rated-by-new-zealanders" target="_blank" rel="noopener noreferrer">Consumer NZ 2024 brand survey</a></li>
+    </ul>
+  </footer>
+  <script src="js/catalog.js"></script>
+  <script src="js/home.js"></script>
+</body>
+</html>
